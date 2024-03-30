@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
     $mobile = $_POST['mobile'];
 
     $email = $_POST['email'];
-     // Already exist.....
+     // Already exist email.....
      $already_exist="SELECT email FROM users WHERE email='$email'"; 
      $result1=mysqli_query($conn,$already_exist);
      $get_num_of_rows=mysqli_num_rows($result1);
@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
         </div>";
         exit();
       }
-      //   End of already exist
+      //   End of already exist email
   
     $username = $_POST['username'];
     $password = $_POST['password'];

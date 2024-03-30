@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body {
-    background: -webkit-linear-gradient(35deg,rgb(10, 11, 11), rgb(125, 138, 139),  rgb(23, 24, 24));
+    background: -webkit-linear-gradient(35deg,rgb(10, 11, 11), rgb(249, 254, 255),  rgb(23, 24, 24));
     animation: color 11s ease-in-out infinite;
     background-size: 350% 350%;
     display: flex;
